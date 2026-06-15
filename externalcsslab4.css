@@ -1,0 +1,12 @@
+#ext_heading {
+    color: yellow;
+    background-color: aqua;
+    font-size: 34px;
+    text-decoration: underline;
+
+}
+#ext_paragraph {
+    color: brown;
+    font-size: 14px;
+    text-decoration: underline;
+}

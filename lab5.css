@@ -1,0 +1,71 @@
+/* (a) Element Selector */
+h1 {
+    color: blue;
+}
+
+p {
+    color: green;
+}
+
+/* (b) Class Selector */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* (c) ID Selector */
+#main-title {
+    color: red;
+    text-align: center;
+}
+
+/* (d) Grouping Selector */
+h2, p, li {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/* (e) Descendant Selector */
+div p {
+    color: purple;
+}
+
+/* (f) Child Selector */
+div > ul > li {
+    color: orange;
+    font-weight: bold;
+}
+
+/* (g) Attribute Selector */
+input[type="text"] {
+    background-color: lightblue;
+    border: 2px solid blue;
+}
+
+/* (h) Pseudo-classes */
+a:hover {
+    color: red;
+}
+
+li:first-child {
+    background-color: lightgreen;
+}
+
+li:last-child {
+    background-color: lightcoral;
+}
+
+/* (i) Pseudo-elements */
+h1::before {
+    content: "HeadingStart:";
+}
+
+h1::after {
+    content: ":HeadingEnd";
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
